@@ -4,14 +4,6 @@ MODIFIED QUICK SORT APPLICATION
 INTRODUCTION
 This application demonstrates Quick sort in a modified version such that it switches to the Insertion Sort when a subfile has <= M elements instead of recursively calling itself in order to improve the performance.
 
-
-CONTENTS OF ZIP FILE
-1.README.txt- instructions about the files attached
-2.Report.pdf- complete information regarding the program describing the empirical evaluation process and answers to the questions asked.
-3.ModQuickSort.rar- this consists of all the program files
-4.ModQuickSort.java- this is just the java file with the required program
-
-
 ABOUT THE PROGRAM
 The program is mainly considered with sorting an array of 60000 natural numbers with the range of values in array depending on k=10,100,1000,10000,100000,1000000. The program logic is a combination of quick sort and insertion sort mechanisms.
 
@@ -22,8 +14,7 @@ Multiple values of M for each K value are tried to find an optimal value of M fo
 
 EXECUTING THE APPLICATION
 The .java file can be used and executed in any environment. I have executed the application in Eclipse IDE and following are the steps to execute in Eclipse:
-1.Unzip the contents of ModQuickSort.zip folder into your harddrive.
-2. Load the project into Eclipse.  
+1.Load the project into Eclipse.  
    -Import the project into Eclipse: 
        - Goto File->Import->select "General" folder->select "Existing project into workspace" ->browse the folder and click finish. 
 3. Next Run/Debug ModQuickSort.java
